@@ -51,12 +51,26 @@ sudo rm -rf volatility_2.6_lin64_standalone*
 
 echo "[+] Installing cucko..."
 sudo pip2.7 install -U cuckoo
-![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gRa__SqaSJ5_ff_nEO6IqQ.png)
+
+# Run cuckoo
+cuckoo -d
 
 # Modified 
 Do the following changes in the conf files.
 ## cuckoo.conf
 sudo nano ~/.cuckoo/conf/cuckoo.conf
+![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gRa__SqaSJ5_ff_nEO6IqQ.png)
+## auxiliary.conf
+sudo nano ~/.cuckoo/conf/auxiliary.conf
+![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*geqlZv8WhRyNCvq6sI3xmA.png)
+## virtualbox.conf
+![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*rVuPBTp27H_-fCYmqvHGpw.png)
+## processing.conf
+![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*geqlZv8WhRyNCvq6sI3xmA.png)
+## reporting.conf
+![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ht9rRc_1H345ta7EZzYzrw.png)
 
+# Run web
+cuckoo web
 
 
