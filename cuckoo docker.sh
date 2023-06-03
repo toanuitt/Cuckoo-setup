@@ -1,4 +1,4 @@
-#Cai dat docker
+#Install docker
 sudo apt update -y && apt upgrade -y
 
 $ sudo apt install docker.io
@@ -12,7 +12,7 @@ $ sudo usermod -aG docker vsudo && newgrp docker
 $ docker --version
 
 $ docker run hello-world
-# Cai dat git
+# Install git
 sudo apt install git
 git --version 
 # clone github
