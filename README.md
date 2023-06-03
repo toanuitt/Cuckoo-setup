@@ -88,10 +88,13 @@ sudo nano ~/.cuckoo/conf/cuckoo.conf
 sudo nano ~/.cuckoo/conf/auxiliary.conf
 ![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*geqlZv8WhRyNCvq6sI3xmA.png)
 ## virtualbox.conf
+sudo nano ~/.cuckoo/conf/virtualbox.conf
 ![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*rVuPBTp27H_-fCYmqvHGpw.png)
 ## processing.conf
+sudo nano ~/.cuckoo/conf/processing.conf
 ![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*geqlZv8WhRyNCvq6sI3xmA.png)
 ## reporting.conf
+sudo nano ~/.cuckoo/conf/reporting.conf
 ![My Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ht9rRc_1H345ta7EZzYzrw.png)
 
 # Run web
