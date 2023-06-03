@@ -51,7 +51,7 @@ sudo rm -rf volatility_2.6_lin64_standalone*
 
 echo "[+] Installing cucko..."
 sudo pip2.7 install -U cuckoo
-![My Remote Image](https://www.dropbox.com/s/wmfv78g8br33ca1/auxiliary.conf.png?dl=0)
+![My Image](C:\Users\ADMIN\OneDrive - Trường ĐH CNTT - University of Information Technology\Máy tính\New folder\auxiliary.conf.png)
 
 # Modified 
 Do the following changes in the conf files.
