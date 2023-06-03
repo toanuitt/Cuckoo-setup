@@ -32,7 +32,7 @@ sudo apt-get install unzip python2.7 python-setuptools python-dev libffi-dev lib
 # tcpdump specific configuration
 sudo aa-disable /usr/sbin/tcpdump
 
-# Add cucko user
+# Add cuckoo user
 sudo adduser cuckoo
 
 sudo groupadd pcap
