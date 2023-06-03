@@ -8,7 +8,7 @@ wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-
 # Install pip for python2.7
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 
-#get python2.7
+## get python2.7
 
 sudo apt-add-repository universe
 
